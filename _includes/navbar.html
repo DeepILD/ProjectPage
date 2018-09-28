@@ -22,7 +22,9 @@
         <!-- Auto Generation of NORMAL pages in the navbar -->
         {% assign name_page = "" %}
         
-        {% for page in site.pages %}
+        {% assign pages = site.pages | sort : "menu_order" %}
+        {% for page in pages %}
+        
         {% if page.title and page.hide != true %}
         {% if name_page contains page.title %}
         {% else %}
