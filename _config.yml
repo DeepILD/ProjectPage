@@ -8,14 +8,14 @@ description: "Apply neural network on medical images" # used by search engines
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Deep ILD Net # blog's title
-  avatar: assets/img/GT.png
-  favicon: assets/img/GT.png
+  title: Deep Eye Net # blog's title
+  avatar: assets/img/DeepEye.svg
+  favicon: assets/img/DeepEye.svg
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>GT Medical Image Deel Learning</p>
+     <p>Deep Eye Net</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
