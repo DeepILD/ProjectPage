@@ -1,0 +1,21 @@
+  <div class="publications">
+  	{% for post in site.categories.Publications %}
+  	<div class="publication-teaser">
+  		{% if post.thumbnail %} 
+  		<div class="post-img">
+  			<img src="{{ site.baseurl }}/{{ post.thumbnail }}">
+  		</div>
+  		{% endif %}
+  		<span>
+  			<h2>
+  				<a class="publication-link" href="{{ post.url | prepend: site.baseurl }}">
+  					{{ post.title }}
+  				</a>
+  			</h2>
+  			<p class="meta">
+  				{{ post.date | date: "%B %-d, %Y" }}
+  			</p>
+  		</span>
+  	</div>
+  	{% endfor %}
+  </div>
