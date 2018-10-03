@@ -1,15 +1,18 @@
 ---
 layout: page
 title: Code
-subtitle: From the pexels folder
+feature-img: "assets/img/pexels/computer.jpeg"
 permalink: /code/
-gallery_path: "assets/img/pexels"
 tags: [Engineering, Code]
 menu_order: 4
 ---
 
-This is a photo gallery made from the static files in the `assets/img/pexels` folder. 
-I wanted to create automatically a simple gallery from a folder without having to create a markdown page as you would for the portfolio.
+# The project code 
 
+## EyeNet 
 
-{% include gallery.html gallery_path=page.gallery_path %}
+A Machine Learning algorithm framework (SVM+DNNs) has been accepted at ICML-IJCAI Workshop of CompBio 2018. [<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png " alt="drawing" width="30" style="padding:0;"/>](https://github.com/huckiyang/EyeNet)
+
+## EyeNet2
+
+Supplymentary 2019 [<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png " alt="drawing" width="30" style="padding:0;"/>](https://github.com/huckiyang/EyeNet2)
